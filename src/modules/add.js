@@ -1,7 +1,6 @@
-import { nameInput, scoreInput, tbody } from './cons';
+import {nameInput, scoreInput, tbody} from './cons';
 
-function creaetData(e) {
-  e.preventDefault();
+function creaetData() {
   const tr = document.createElement('tr');
   const td1 = document.createElement('td');
   const td2 = document.createElement('td');

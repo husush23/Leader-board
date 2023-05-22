@@ -17,9 +17,6 @@ body {
   gap: 100px;
 }
 
-.col-1 {
-}
-
 .wrapper {
   display: flex;
   align-items: center;
