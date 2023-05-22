@@ -26,7 +26,7 @@
 
 # 📖 Leader board <a name="about-project"></a>
 
-**My portfolio** is a project based on first mobile structure and it is complete portfolio with even desktop responsive version.
+**Leader board ** is a project based on calling API's to get data from.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,9 +34,7 @@
 
 <details>
   <summary>portfolio website</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
+  
 </details>
 
 <!-- GETTING STARTED -->
