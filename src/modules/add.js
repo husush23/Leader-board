@@ -1,4 +1,4 @@
-import {nameInput, scoreInput, tbody} from './cons';
+import { nameInput, scoreInput, tbody } from './cons.js';
 
 function creaetData() {
   const tr = document.createElement('tr');

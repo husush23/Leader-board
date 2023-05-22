@@ -1,5 +1,5 @@
 import './styles/style.css';
-import creaetData from './modules/add';
+import creaetData from './modules/add.js';
 
 const submitBtn = document.querySelector('.submit');
 
