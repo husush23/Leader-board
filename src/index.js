@@ -1,9 +1,11 @@
 import './styles/style.css';
-import creaetData from './modules/add.js';
+import createGame from './modules/game.js';
 
-const submitBtn = document.querySelector('.submit');
+import addToUI from './modules/display.js';
 
-submitBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  creaetData();
-});
+function allTogether() {
+  createGame();
+  addToUI();
+}
+
+allTogether();
