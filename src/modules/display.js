@@ -10,7 +10,7 @@ const refreshbtn = document.querySelector('.refresh');
 const display = async () => {
   tbody.innerHTML = '';
   const names = await get();
-  names.forEach(name => {
+  names.forEach((name) => {
     const tr = document.createElement('tr');
     const td1 = document.createElement('td');
     const td2 = document.createElement('td');
@@ -22,7 +22,7 @@ const display = async () => {
     tbody.append(tr);
   });
 };
-const addPost = e => {
+const addPost = (e) => {
   e.preventDefault();
   post('qdXYMNzZiowFhKCKo3tu', nameInput.value, scoreInput.value);
   nameInput.value = '';

@@ -1,7 +1,6 @@
 const createGame = async () => {
-  const url =
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
-  const data = {name: "Kadare's Game"};
+  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
+  const data = { name: "Kadare's Game" };
 
   const request = new Request(url, {
     method: 'POST',
