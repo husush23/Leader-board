@@ -1,9 +1,8 @@
 import './styles/style.css';
-import creaetData from './modules/add.js';
+import addToUI from './modules/display.js';
 
-const submitBtn = document.querySelector('.submit');
+function allTogether() {
+  addToUI();
+}
 
-submitBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  creaetData();
-});
+allTogether();
