@@ -15,8 +15,6 @@ const createGame = async () => {
   const responseData = await response.json();
   // console.log(responseData);
   const gameId = responseData.result.split(' ')[3];
-  // console.log(gameId);
-
   return gameId;
 };
 

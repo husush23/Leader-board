@@ -1,4 +1,4 @@
-const get = async (id = '7A0hfuREvbxDO8PxYL5r') => {
+const get = async (id = 'qdXYMNzZiowFhKCKo3tu') => {
   const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`;
   const request = new Request(url);
 

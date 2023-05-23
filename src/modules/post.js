@@ -14,8 +14,6 @@ const post = async (id, username, score) => {
   });
   const result = await fetch(res);
   const result1 = await result.json();
-  console.log(result1);
   return result1;
 };
-
 export default post;

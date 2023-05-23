@@ -1,5 +1,5 @@
 import get from './get';
-import post from './post';
+import post from './post.js';
 
 const nameInput = document.querySelector('.name');
 const scoreInput = document.querySelector('.score');
@@ -8,6 +8,7 @@ const submitBtn = document.querySelector('.submit');
 const refreshbtn = document.querySelector('.refresh');
 
 const display = async () => {
+  tbody.innerHTML = '';
   const names = await get();
   //   console.log(names);
   names.forEach((name) => {
@@ -22,8 +23,9 @@ const display = async () => {
     tbody.append(tr);
   });
 };
-const addPost = () => {
-  post('7A0hfuREvbxDO8PxYL5r', nameInput.value, scoreInput.value);
+const addPost = (e) => {
+  e.preventDefault();
+  post('qdXYMNzZiowFhKCKo3tu', nameInput.value, scoreInput.value);
   nameInput.value = '';
   scoreInput.value = '';
 };
